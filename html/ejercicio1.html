@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejemplo Formulario # 1</title>
+   
+</head>
+<body>
+   
+    <h1>Zoo Keeper Application Form</h1>
+    <p>please complete the form. Mandatory fields are marked with a*</p>
+    <form action=""></form>
+    <fieldset>
+
+        <legend>CONTACT DETAILS</legend>
+        Name
+        <input type="text" autofocus required max="60"><br><br>
+
+        Telephone
+        <label for="name"></label> <input type="number"  id="tentacles" name="telefono"><br><br>
+
+        Email
+        <input type="email" id="email" name="email" maxlength="30" required>
+       
+    </fieldset><br>
+    <fieldset>
+    <legend>Personal Information</legend>
+
+       <label for="">Age</label> 
+         <input type="number" size="10"> <br><br>
+        Gender <select > 
+            <option value="ml">Male</option> 
+            <option value="fl">Female</option> 
+        </select> <br> <br>
+
+        <table>
+
+            <tr>
+                <td style="vertical-align: super;">Whe did you <br>
+                    first know you <br>
+                      wanted to be a <br>
+                      zoo-keeper? <br></td>
+                <td><textarea style="overflow-y: scroll;"  cols="20" rows="5"></textarea></td>
+            </tr>
+
+        </table>
+    </fieldset>
+    
+    
+
+    <fieldset>
+        <legend>PICK YOUR FAVORITE ANIMALS</legend>
+        <input type="checkbox"> Zebra
+        <input type="checkbox"> Cat
+        <input type="checkbox"> Anaconda
+        <input type="checkbox"> Human <br><br>  
+        <input type="checkbox"> Elephant
+        <input type="checkbox"> Wildebeest
+        <input type="checkbox"> Pigeon
+        <input type="checkbox"> Crab <br> <br>
+       
+    </fieldset> <br>
+    <input type="submit" value="Submit Application">
+</form>
+
+</body>
+</html>
